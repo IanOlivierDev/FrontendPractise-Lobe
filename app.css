@@ -22,18 +22,19 @@ body{
     padding: 0;
     margin-top: 25px;
 }
-#nav-bar{
+header #nav-bar{
     display: flex;
     justify-content: space-between;
     font-size: 1.8em;
     font-weight: 600;
     position: fixed;
     top: 0;
-    margin-right: 0;
-    margin-left: 0;
     backdrop-filter: blur(10px);
     padding: 10px 0 10px 0;
-    z-index: 1;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 3;
 }
 nav span{
     display: inline;
